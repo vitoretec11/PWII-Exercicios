@@ -8,24 +8,17 @@
 </head>
 <body>
     <?php
-    $idade = 17;
-    if($idade <= 12)
-    {
-        echo "Criança";
+    $numero = 0;
+
+    if($numero > 0){
+        echo "O numero $numero é positivo";
     }
-    else if($idade <= 17 )
-    {
-        echo "Adolescente";
+    else if($numero <0 ){
+        echo "O numero $numero é negativo";
     }
-    else if($idade <= 64)
-    {
-        echo "Adulto";
+    else{
+        echo "O numero $numero é zero";
     }
-    else if($idade > 65)
-    {
-        echo "Idoso";
-    }
-    
-    ?>
+        ?>
 </body>
 </html>
